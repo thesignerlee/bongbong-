@@ -1,0 +1,30 @@
+/* 
+1면 왼쪽에서 오른쪽으로 움직이게 만들기\
+*/
+@keyframes myan_01 {
+    0% {
+    transform:translateX(-78%);   
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes myan_01_back {
+    0% {
+        transform: translateX(0);
+ 
+    }
+    100% {
+        transform:translateX(-78%);  
+    }
+}
+
+
+/* 
+메인 페이지 리뷰 이미지 움직이게 만들기
+*/
+
+@keyframes left_right {
+    0% {background-position-x: -100px;}
+    100% {background-position-x: 8000px;}
+}
